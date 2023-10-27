@@ -1,0 +1,12 @@
+
+
+.menu{
+    background-color: #FF1919;
+    align-items:center;
+    justify-content: center;
+    min-height: 20vh;
+  }
+  
+  .a {
+    color: rgb(201, 23, 23);
+  }

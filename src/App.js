@@ -1,24 +1,14 @@
 import './App.css';
-import logo from './imagens/SENAI_São_Paulo_logo.png';
+import Logotipo from './componentes/Logotipo';
+import Menu from './componentes/Menu';
+import Login from './componentes/Login';
+import Cabecalho from './componentes/Cabeçalho';
 
-import login from './imagens/imagemlogin.jpg'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} classname="App-Logo" alt="Logo"></img>
-        <p>"Anchieta"</p>
-
-        <ul className="Header-Menu">
-          <li className="Menu">Home </li>
-          <li className="Menu">Cursos</li>
-          <li className="menu">Turmas</li>
-        </ul>
-
-        <p>Fazer Login</p>
-        <img src={login} classname='Login' alt="login"/>
-       </header>
-
+        <Cabecalho/>
+      
       <section className="Corpo">
        <nav className="Lateral">
         <ul className="Menu-Lateral">
@@ -26,7 +16,7 @@ function App() {
           <li className="Menu-Lateral">Cursos Tecnicos</li>
           <li className="Menu-Lateral">Unidades</li>
           <li className="Menu-Lateral">Fale Conosco</li>
-          <li className="Menu-Lateral">Fale Conosco</ui>
+          <li className="Menu-Lateral">Fale Conosco</li>
         </ul>
        </nav>
 
